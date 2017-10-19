@@ -1,1 +1,246 @@
+body{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #cccccc
+}
 
+ul{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+}
+
+li{
+    float: right;
+}
+
+li a{
+    display: block;
+    font-size: 28;
+    color: #666666;
+    text-align: center;
+    padding: 0 16px;
+    text-decoration: none;
+}
+
+li a:hover{
+    color: #ff0000;
+}
+
+#heading {
+    height: 70px;
+    left:0;
+    top:0;
+    overflow: auto;
+    clear: both;
+    background-color: #ffffff;
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+#box{
+    position: relative;
+    top: 0;
+    left:0;
+    padding-left:20px;
+    padding-right:20px;
+    z-index: 10;
+    color: white;
+}
+header{
+   width: 960px;
+   font-size: 28 px;
+   line-height: 70px;
+   margin: auto;
+   color: #666666;
+    
+}
+
+a{
+    color: #666666;
+    text-decoration: none;
+}
+footer{
+    position: fixed;
+    width: 100%;
+    height: 70px;
+    line-height: 70px;
+    bottom:0;
+    text-align:center;
+    background-color: #666666;
+    color: #ffffff;
+    
+    
+}
+.jay-title{
+    font-size: 28px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+h1{
+    font-size: 28px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 30px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px; 
+    
+}
+
+h2{
+    font-size:20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 20px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px; 
+}
+
+#click{
+    float: right;
+}
+
+
+.clearfix{
+    content:"";
+    margin: auto;
+    clear: both;
+    overflow: auto;
+    width: 960px;
+}
+
+.container{
+    box-sizing: border-box;
+    background-color: #ffffff;
+    padding: 10px;
+    margin-bottom: 100px;
+}
+
+.subtitle{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+
+
+#profilepic {
+    width:200px;
+    height:300.4px;  
+    margin-right: 10px;
+}
+
+#aboutme{
+    width: 650px;
+}
+
+#connectme{
+    text-align: center;
+    width: 270px;
+    float: right;
+}
+
+.icon {
+    text-align: center;
+    height: 60px;
+    width: 60px;
+}
+#center{
+    margin: auto;
+}
+#profilepic,
+#aboutme
+{
+    float: left;
+}
+
+.alignleft{
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.alignright{
+    float: right;
+}
+
+#bar{
+    display: block;
+    height:5px;
+    bottom: 70px;
+}
+
+.text-titles{
+    color : #666666;
+
+}
+
+input[type=text], select{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width:100%;
+    color: white;
+    padding:14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#message-box{
+    padding-bottom: 200px;
+}
+
+input[type=submit] {
+    width: 100%;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    color: white;
+}
+input[type=submit]:hover {
+    color: #295f5c;
+}
+
+.pContent {
+    margin: 10px;
+    width: 250px;
+    height: 200px;
+    float: left;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.pSubtitles{
+    position: absolute;
+    bottom: 10px;
+    padding-top:20px;
+    padding-bottom:20px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    width: 100%
+}
+
+.theme-backgroundcolor{
+    background-color: #4aaaa5;
+}
+
+.theme-textcolor{
+    color: #4aaaa5;
+}
+
+.pimg-1{
+    background-image: url("../images/image-1.jpeg")
+}
+
+.pimg-2{
+    background-image: url("../images/linkeden.png")
+}
