@@ -215,6 +215,7 @@ input[type=submit]:hover {
     width: 250px;
     height: 200px;
     float: left;
+    overflow: hidden;
     background-repeat: no-repeat;
     position: relative;
 }
